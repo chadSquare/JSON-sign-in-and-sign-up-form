@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/3714e363d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>IFS SignUp</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to IFS354</h1>
+      <h2>Web Development</h2>
+    </header>
+    <section id="main-content">
+      <!-- forms container -->
+      <div id="forms">
+        <!-- sign-up form below -->
+        <div id="sign-in">
+          <h1>Sign In</h1>
+          <input id="email" type="email" class="InInput" placeholder="email" />
+          <input
+            id="password"
+            type="password"
+            class="InInput"
+            placeholder="password"
+          />
+          <button class="btn" id="sign-in-btn">Sign me in</button>
+          <br />
+          <div class="social-media">
+            <h3>Or sign in using social media</h3>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </div>
+        </div>
+
+        <!-- sign-up form below -->
+        <div id="sign-up">
+          <h1>Sign Up</h1>
+          <input id="sign-up-name" type="text" placeholder="name" />
+          <input id="sign-up-email" type="email" placeholder="email" />
+          <input id="sign-up-password" type="password" placeholder="password" />
+          <button class="btn" id="sign-up-btn">Sign me up</button>
+          <br />
+          <div class="social-media">
+            <h3>Or sign up using social media</h3>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <!-- forms cover below -->
+      <div id="cover">
+        <button class="coverBtn" id="show-sign-in-btn">Sign In</button>
+        <button class="coverBtn" id="show-sign-up-btn">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- madal below -->
+    <aside id="modal" class="modal">
+      <h1 id="msg" class="msg"></h1>
+      <img id="icon" class="modal-img" alt="modal-img" />
+    </aside>
+
+    <!-- blackout screen below -->
+    <section id="blackout" class="blackout"></section>
+    <footer>
+      <p>Created by Chad Square &copy; 2020</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
