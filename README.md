@@ -1,5 +1,6 @@
-# JSON-sign-in-and-sign-up-form
+# CSS3-animation-JSON-form-validation
 A sign-in and sign-up form that:
+  > uses CSS3 animations and transitions; 
   > uses JSON data;
   > is responsive;
   > uses css animations and transitions,
